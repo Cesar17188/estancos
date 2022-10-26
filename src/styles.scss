@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* Colores */
+  --background-color: linear-gradient(180.03deg, #000000 44.54%, #494848 128.7%);
+  --main-color: #D5BB60;
+}
+
+/* Cambios generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Perpetua", sans-serif;
+}
