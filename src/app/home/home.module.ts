@@ -10,6 +10,8 @@ import { DestileriaComponent } from './components/destileria/destileria.componen
 import { ContenidosComponent } from './components/contenidos/contenidos.component';
 
 
+import { SharedModule } from '@shared/shared.module';
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -21,7 +23,8 @@ import { ContenidosComponent } from './components/contenidos/contenidos.componen
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    SharedModule
   ]
 })
 export class HomeModule { }
