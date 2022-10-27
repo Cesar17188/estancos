@@ -11,6 +11,26 @@
     width: 96px;
     height: 94px;
   }
+  #menu:hover,
+  #menu:focus,
+  #logo:hover,
+  #logo:focus {
+    border-color: rgba(213, 187, 96, 0.15);
+    box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+    color: rgba(213, 187, 96, 0.65);
+  }
+  #logo:hover,
+  #menu:hover {
+    transform: translateY(-1px);
+  }
+  #menu:active,
+  #logo:active {
+    background-color: #353535;
+    border-color: rgba(213, 187, 96, 0.15);
+    box-shadow: rgba(213, 187, 96, 0.06) 0 2px 4px;
+    color: rgba(213, 187, 96, 0.65);
+    transform: translateY(0);
+  }
   #menu {
     width: 30px;
     height: 25px;
