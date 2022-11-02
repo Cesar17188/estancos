@@ -9,6 +9,7 @@ import { LayoutComponent } from './layout/layout.component';
 // módulos de estancos
 import { SharedModule } from '@shared/shared.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
