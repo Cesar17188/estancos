@@ -8,7 +8,7 @@ import { LayoutComponent } from './layout/layout.component';
 
 // módulos de estancos
 import { SharedModule } from '@shared/shared.module';
-
+import { CoreModule } from '@core/core.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +19,7 @@ import { SharedModule } from '@shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

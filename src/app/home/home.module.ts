@@ -11,6 +11,7 @@ import { ContenidosComponent } from './components/contenidos/contenidos.componen
 
 
 import { SharedModule } from '@shared/shared.module';
+import { ProductosComponent } from './containers/productos/productos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SharedModule } from '@shared/shared.module';
     CoctelComponent,
     EstancosComponent,
     DestileriaComponent,
-    ContenidosComponent
+    ContenidosComponent,
+    ProductosComponent
   ],
   imports: [
     CommonModule,

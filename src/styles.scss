@@ -16,3 +16,28 @@ html {
   font-size: 62.5%;
   font-family: "Perpetua", sans-serif;
 }
+
+// distribución de columnas por tamaño de pantalla
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 425px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1400px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

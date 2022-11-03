@@ -1,10 +1,19 @@
+<!-- seccion inicial -->
 <div class="content">
   <app-header></app-header>
   <div class="landing_header">
     <img id="piramide" src="../../../../assets/piramide.png" alt="piramide">
-    <img data-aos="flip-left" data-aos-duration="5000" id="home_logo" src="https://drive.google.com/uc?export=view&id=1Bin5V4Yf20Y8U-roExhgmVx7jH3XtV6k" alt="logo_estancos">
+    <img data-aos="flip-left" id="home_logo" src="https://drive.google.com/uc?export=view&id=1Bin5V4Yf20Y8U-roExhgmVx7jH3XtV6k" alt="logo_estancos">
   </div>
 </div>
-<div class="products">
-  <app-producto></app-producto>
+<!-- seccion producto -->
+<div class="content_support">
+  <div class="product_header">
+    <div data-aos="fade-up" class="header_box">
+      <h1 class="header_box-title">PRODUCTOS</h1>
+    </div>
+    <div class="product_content">
+      <app-productos data-aos="fade-up"></app-productos>
+    </div>
+  </div>
 </div>
