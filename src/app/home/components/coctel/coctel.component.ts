@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+import { Coctel } from '@core/models/coctel.model';
+import AOS from 'aos';
+
 
 @Component({
   selector: 'app-coctel',
@@ -7,9 +11,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoctelComponent implements OnInit {
 
+  @Input() coctel: Coctel | undefined;
+
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init();
   }
 
 }
