@@ -1,0 +1,124 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_estancos {
+  width: 317px;
+  height: 264px;
+  border-radius: 47px;
+  border: 1px solid var(--main-color);
+  margin-bottom: 25px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.content_estancos:hover {
+  transition-delay: 0.5s;
+  box-shadow: 0 0 50px var(--main-color);
+}
+
+.content_estancos:before {
+  content: '';
+  position: absolute;
+  top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid var(--main-color);
+	border-left: 2px solid var(--main-color);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.content_estancos:hover:before {
+  width: 100%;
+	height: 100%;
+	transition-delay: 0s;
+}
+
+.content_estancos:after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid var(--main-color);
+	border-right: 2px solid var(--main-color);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.content_estancos:hover:after {
+  width: 100%;
+	height: 100%;
+	transition-delay: 0s;
+}
+
+
+#estancos_1 {
+  position: relative;
+  background-image: url("https://drive.google.com/uc?export=view&id=18857oNIwYBQfh64nfZZtOGPQjhLp1c94");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  z-index: 2;
+  h3 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    text-align: center;
+    position: relative;
+    width: 142px;
+    height: 112px;
+    color: var(--main-color);
+    transform: translate(60%, 50%);
+    z-index: 1;
+  }
+}
+
+
+#estancos_2 {
+  background-image: url("https://drive.google.com/uc?export=view&id=1Bin5V4Yf20Y8U-roExhgmVx7jH3XtV6k");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  h3 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    text-align: center;
+    position: relative;
+    width: 142px;
+    height: 112px;
+    color: var(--main-color);
+    transform: translate(60%, 50%);
+    z-index: 1;
+  }
+}
+
+#estancos_3 {
+  background-image: url("https://drive.google.com/uc?export=view&id=1c5nNN0GSjo8DdGjh7HCe6zQgXmF1eJ5K");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  h3 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    text-align: center;
+    position: relative;
+    width: 210px;
+    height: 112px;
+    color: var(--main-color);
+    transform: translate(25%, 40%);
+    z-index: 1;
+  }
+}
+
