@@ -13,6 +13,13 @@
   margin-bottom: 25px;
   overflow: hidden;
   transition: 0.5s;
+  text-decoration: none;
+}
+
+.content_title {
+  position: relative;
+  width: 152px;
+  height: 132px;
 }
 
 .content_estancos:hover {
@@ -20,105 +27,111 @@
   box-shadow: 0 0 50px var(--main-color);
 }
 
-.content_estancos:before {
-  content: '';
-  position: absolute;
-  top: 0;
-	left: 0;
-	width: 10px;
-	height: 10px;
-	border-top: 2px solid var(--main-color);
-	border-left: 2px solid var(--main-color);
-	transition: 0.5s;
-	transition-delay: 0.5s;
-}
+// .content_estancos:before {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+// 	left: 0;
+// 	width: 10px;
+// 	height: 10px;
+// 	border-top: 2px solid var(--main-color);
+// 	border-left: 2px solid var(--main-color);
+// 	transition: 0.5s;
+// 	transition-delay: 0.5s;
+// }
 
-.content_estancos:hover:before {
-  width: 100%;
-	height: 100%;
-	transition-delay: 0s;
-}
+// .content_estancos:hover:before {
+//   width: 100%;
+// 	height: 100%;
+// 	transition-delay: 0s;
+// }
 
-.content_estancos:after {
-  content: '';
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 10px;
-	height: 10px;
-	border-bottom: 2px solid var(--main-color);
-	border-right: 2px solid var(--main-color);
-	transition: 0.5s;
-	transition-delay: 0.5s;
-}
+// .content_estancos:after {
+//   content: '';
+// 	position: absolute;
+// 	bottom: 0;
+// 	right: 0;
+// 	width: 10px;
+// 	height: 10px;
+// 	border-bottom: 2px solid var(--main-color);
+// 	border-right: 2px solid var(--main-color);
+// 	transition: 0.5s;
+// 	transition-delay: 0.5s;
+// }
 
-.content_estancos:hover:after {
-  width: 100%;
-	height: 100%;
-	transition-delay: 0s;
-}
+// .content_estancos:hover:after {
+//   width: 100%;
+// 	height: 100%;
+// 	transition-delay: 0s;
+// }
 
-
-#estancos_1 {
+a {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 56px;
+  text-align: center;
   position: relative;
-  background-image: url("https://drive.google.com/uc?export=view&id=18857oNIwYBQfh64nfZZtOGPQjhLp1c94");
-  background-repeat: no-repeat;
+  width: 142px;
+  height: 112px;
+  background-color: var(--background-color);
+  color: var(--main-color);
+}
+
+.estancos_image {
+  width: 100%;
+  height: 100%;
   background-size: cover;
   opacity: 0.4;
-  z-index: 2;
-  h3 {
-    font-style: bold;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 56px;
-    text-align: center;
-    position: relative;
-    width: 142px;
-    height: 112px;
-    color: var(--main-color);
-    transform: translate(60%, 50%);
-    z-index: 1;
-  }
+}
+
+.title_1{
+    position: absolute;
+    top: 32%;
+    left: 22%;
+}
+
+.title_2{
+  position: absolute;
+  top: 134%;
+  left: 22%;
+}
+
+.title_3{
+  position: absolute;
+  width: 75%;
+  text-align: center;
+  top: 220%;
+  left: 13%;
 }
 
 
-#estancos_2 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1Bin5V4Yf20Y8U-roExhgmVx7jH3XtV6k");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.4;
-  h3 {
-    font-style: bold;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 56px;
-    text-align: center;
-    position: relative;
-    width: 142px;
-    height: 112px;
-    color: var(--main-color);
-    transform: translate(60%, 50%);
-    z-index: 1;
-  }
-}
 
-#estancos_3 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1c5nNN0GSjo8DdGjh7HCe6zQgXmF1eJ5K");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.4;
-  h3 {
-    font-style: bold;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 56px;
-    text-align: center;
-    position: relative;
-    width: 210px;
-    height: 112px;
-    color: var(--main-color);
-    transform: translate(25%, 40%);
-    z-index: 1;
-  }
-}
+
+// #estancos_2 {
+//   h3 {
+//     transform: translate(60%, 50%);
+//   }
+// }
+
+// #estancos_2:before {
+//   background-image: url("https://drive.google.com/uc?export=view&id=1Bin5V4Yf20Y8U-roExhgmVx7jH3XtV6k");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   opacity: 0.4;
+// }
+
+// #estancos_3 {
+//   h3 {
+//     width: 215px;
+//     transform: translate(25%, 40%);
+//   }
+// }
+
+// #estancos_3:before {
+//   background-image: url("https://drive.google.com/uc?export=view&id=1c5nNN0GSjo8DdGjh7HCe6zQgXmF1eJ5K");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   opacity: 0.4;
+// }
 
