@@ -6,6 +6,9 @@
 }
 
 .coctel_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   position: absolute;
   width: 169px;
@@ -18,9 +21,10 @@
 
   img {
     position: absolute;
-    width: 58px;
-    height: 159px;
-    left: 54px;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 80px;
   }
 }
 

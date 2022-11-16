@@ -18,9 +18,10 @@
 
   img {
     position: absolute;
-    width: 58px;
-    height: 159px;
-    left: 54px;
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    border-radius: 80px;
   }
 }
 
