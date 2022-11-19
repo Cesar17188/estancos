@@ -114,3 +114,34 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
   left: 26px;
   top: 4040px;
 }
+
+@media (min-width: 426px) {
+  .landing_header {
+      height: 100vh;
+      #piramide {
+        width: 75%;
+        margin-left: -1%;
+        margin-top: 10%;
+      }
+      #home_logo {
+        top: 2px;
+        left: 35%;
+        width: 78%;
+      }
+  }
+  .header_box-products {
+    top: 120%;
+  }
+  .header_box-cocteles {
+    top: 205%;
+  }
+  .header_box-estancos {
+    top: 290%;
+  }
+  .header_box-destileria {
+    top: 480%;
+  }
+  .header_box-contenido {
+    top: 660%;
+  }
+}

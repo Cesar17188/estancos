@@ -35,3 +35,9 @@
   text-align: center;
   color: #D5BB60;
 }
+
+@media (min-width: 426px) {
+  .product {
+    transform: translateX(50%);
+  }
+}

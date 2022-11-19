@@ -61,7 +61,24 @@ a {
   left: 12%;
 }
 
-
+@media (min-width: 426px) {
+  .content_destileria {
+    width: 85%;
+    height: 315px;
+  }
+  .title_1{
+    top: 45%;
+    left: 36%;
+  }
+  .title_2{
+    top: 160%;
+    left: 40%;
+  }
+  .title_3{
+    top: 278%;
+    left: 11%;
+  }
+}
 // .content_destileria:before {
 //   content: '';
 //   position: absolute;

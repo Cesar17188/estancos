@@ -61,6 +61,21 @@ a {
   left: 12%;
 }
 
+@media (min-width: 426px) {
+  .content_contenidos {
+    width: 85%;
+    height: 315px;
+  }
+  .title_1 {
+    top: 44%;
+    left: 43%;
+  }
+  .title_2 {
+    top: 44%;
+    left: 43%;
+  }
+}
+
 // .content_contenidos:before {
 //   content: '';
 //   position: absolute;

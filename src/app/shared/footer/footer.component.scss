@@ -163,3 +163,31 @@
     transform: scale(0.75);
   }
 }
+
+@media (min-width: 426px) {
+    .header {
+      transform: translate(0px, 0px);
+    }
+    .footer_menu {
+      min-height: 40vh;
+    }
+    .separador{
+      width: 100%;
+      img {
+        width: 82%;
+        transform: translate(66px, -10px);
+      }
+      p {
+        transform: translate(330px, 0px);
+      }
+    }
+    .social_media {
+      ul li {
+        width: 100px;
+        height: 100px;
+      }
+      ul li:hover a {
+        font-size: 4em;
+      }
+    }
+}

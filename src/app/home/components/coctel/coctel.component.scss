@@ -38,3 +38,9 @@
   text-align: center;
   color: #D5BB60;
 }
+
+@media (min-width: 426px) {
+  .coctel {
+    transform: translateX(50%);
+  }
+}

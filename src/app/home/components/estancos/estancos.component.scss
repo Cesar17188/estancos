@@ -105,7 +105,21 @@ a {
   left: 12%;
 }
 
-
+@media (min-width: 426px) {
+  .content_estancos {
+    width: 85%;
+    height: 315px;
+  }
+  .title_1{
+    left: 31%;
+  }
+  .title_2{
+    left: 33%;
+  }
+  .title_3{
+    top: 33%;
+  }
+}
 
 
 // #estancos_2 {
