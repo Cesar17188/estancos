@@ -2,7 +2,15 @@
   <div class="coctel_image">
     <img [src]="coctel?.img" alt="">
   </div>
-  <div class="coctel_name">
-    <h3>{{coctel?.nombre}}</h3>
+  <div class="coctel_content">
+    <div class="coctel_name">
+      <h3>{{coctel?.nombre}}</h3>
+    </div>
+    <div class="coctel_contain">
+      <p>{{coctel?.descripcion}}</p>
+    </div>
+    <div class="btnCata">
+      <a href="">Notas de cata</a>
+    </div>
   </div>
 </div>

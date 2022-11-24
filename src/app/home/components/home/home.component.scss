@@ -47,6 +47,11 @@
   width: 100%;
   height: 135vh;
 }
+.footer_content {
+  background: var(--background-color);
+  width: 100%;
+  height: 135vh;
+}
 
 .header{
   width: 100%;
@@ -143,5 +148,58 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
   }
   .header_box-contenido {
     top: 660%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing_header {
+    height: 67vh;
+    #piramide {
+      width: 45%;
+      margin-top: 17%;
+    }
+    #home_logo {
+      left: 11%;
+    }
+    #piramide2 {
+      width: 45%;
+      transform: rotateY(180deg);
+      margin-left: 56%;
+      margin-top: 17%;
+    }
+  }
+  .header_box {
+    display: flex;
+    align-items: center;
+    .header_box-title {
+      font-size: 35px;
+    }
+  }
+  .header_box-products {
+    top: 87%;
+  }
+  .header_box-cocteles {
+    top: 155%;
+  }
+  .header_box-estancos {
+    top: 223%;
+  }
+  .header_box-destileria {
+    top: 315%;
+  }
+  .header_box-contenido {
+    top: 408%;
+  }
+  .content_support {
+    height: 67vh;
+  }
+  .content_support_large {
+    height: 90vh;
+  }
+  .content_support_medium {
+    height: 55vh;
+  }
+  .footer_content {
+    height: 70vh;
   }
 }

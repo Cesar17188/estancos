@@ -3,8 +3,15 @@
     <div class="product_image">
       <img [src]="producto?.img" alt="">
     </div>
-    <div class="product_name">
-      <h3>{{producto?.producto}} Estancos</h3>
+    <div class="producto_content">
+      <div class="product_name">
+        <h3>{{producto?.producto}} Estancos</h3>
+      </div>
+      <div class="product_contain">
+        <p>{{producto?.descripcion}}</p>
+      </div>
+      <div class="btnCata">
+        <a href="">Notas de cata</a>
+      </div>
     </div>
   </div>
-
