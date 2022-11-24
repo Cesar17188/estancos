@@ -4,7 +4,7 @@
 .landing_header {
   position: relative;
     width: 100%;
-    height: 76.5vh;
+    height: 62vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -23,6 +23,9 @@
       margin-left: -1%;
       margin-top: 10%;
     }
+    #piramide2 {
+      display: none;
+    }
     #home_logo {
       top: 2px;
       left: 35%;
@@ -33,24 +36,24 @@
 .content_support {
   background: var(--background-color);
   width: 100%;
-  height: 84vh;
+  height: 60vh;
 }
 
 .content_support_large {
   background: var(--background-color);
   width: 100%;
-  height: 185vh;
+  height: 135vh;
 }
 
 .content_support_medium {
   background: var(--background-color);
   width: 100%;
-  height: 135vh;
+  height: 100vh;
 }
 .footer_content {
   background: var(--background-color);
   width: 100%;
-  height: 135vh;
+  height: 120vh;
 }
 
 .header{
@@ -69,7 +72,7 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
 .header_box-products {
   position: absolute;
   left: 26px;
-  top: 605px;
+  top: 78%;
 }
 
 .header_box-title {
@@ -99,30 +102,30 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
 .header_box-cocteles {
   position: absolute;
   left: 26px;
-  top: 1150px;
+  top: 138%;
 }
 
 .header_box-estancos {
   position: absolute;
   left: 26px;
-  top: 1680px;
+  top: 198%;
 }
 
 .header_box-destileria {
   position: absolute;
   left: 26px;
-  top: 2860px;
+  top: 333%;
 }
 
 .header_box-contenido {
   position: absolute;
   left: 26px;
-  top: 4040px;
+  top: 468%;
 }
 
 @media (min-width: 426px) {
   .landing_header {
-      height: 100vh;
+      height: 83vh;
       #piramide {
         width: 75%;
         margin-left: -1%;
@@ -135,19 +138,28 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
       }
   }
   .header_box-products {
-    top: 120%;
+    top: 102%;
   }
   .header_box-cocteles {
-    top: 205%;
+    top: 168%;
   }
   .header_box-estancos {
-    top: 290%;
+    top: 238%;
   }
   .header_box-destileria {
-    top: 480%;
+    top: 388%;
   }
   .header_box-contenido {
-    top: 660%;
+    top: 538%;
+  }
+  .content_support {
+    height: 70vh;
+  }
+  .content_support_large {
+    height: 150vh;
+  }
+  .content_support_medium {
+    height: 110vh;
   }
 }
 
@@ -162,6 +174,7 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
       left: 11%;
     }
     #piramide2 {
+      display: flex;
       width: 45%;
       transform: rotateY(180deg);
       margin-left: 56%;
@@ -176,19 +189,19 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
     }
   }
   .header_box-products {
-    top: 87%;
+    top: 85%;
   }
   .header_box-cocteles {
-    top: 155%;
+    top: 152%;
   }
   .header_box-estancos {
-    top: 223%;
+    top: 219%;
   }
   .header_box-destileria {
-    top: 315%;
+    top: 309%;
   }
   .header_box-contenido {
-    top: 408%;
+    top: 398%;
   }
   .content_support {
     height: 67vh;

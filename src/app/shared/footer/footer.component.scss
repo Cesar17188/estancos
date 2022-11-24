@@ -99,6 +99,10 @@
   img{
     transform: translate(55px, -80px);
   }
+  a{
+    text-decoration: none;
+    transition: 0.5s;
+  }
   p{
     color: var(--main-color);
     transform: translate(150px, -65px);
@@ -190,4 +194,13 @@
         font-size: 4em;
       }
     }
+}
+
+@media (min-width: 1024px) {
+  .separador {
+    p{
+      transform: translate(440px, -8px);
+      font-size: 2.5em;
+    }
+  }
 }

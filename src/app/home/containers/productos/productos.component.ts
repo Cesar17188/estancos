@@ -23,7 +23,7 @@ export class ProductosComponent implements OnInit {
         id: '1',
         producto: 'Ron',
         img: 'https://drive.google.com/uc?export=view&id=1fLsnoxo4lYwhJeFsJhPK1ljiq7hGM6L2',
-        descripcion: 'Ron Estancos',
+        descripcion: 'Ron Añejo Agricola Estancos',
         precioUnidad: 15,
         precioCaja: 90,
         stock: 250
