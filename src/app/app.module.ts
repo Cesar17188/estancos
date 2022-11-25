@@ -9,17 +9,19 @@ import { LayoutComponent } from './layout/layout.component';
 // módulos de estancos
 import { SharedModule } from '@shared/shared.module';
 import { CoreModule } from '@core/core.module';
+import { ProductosModule } from '@productos/productos.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SharedModule,
     CoreModule,
+    ProductosModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
