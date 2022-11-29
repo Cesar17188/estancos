@@ -5,17 +5,20 @@ import { ProductosRoutingModule } from './productos-routing.module';
 import { SharedModule } from '@sharedshared.module';
 
 import { HomeComponent } from './components/home/home.component';
-
+import { ProductsComponent } from './containers/products/products.component';
+import { ProductComponent } from './components/product/product.component';
 
 
 @NgModule({
-  declarations: [
-    HomeComponent
-  ],
-  imports: [
-    CommonModule,
-    SharedModule,
-    ProductosRoutingModule
-  ]
+    declarations: [
+        HomeComponent,
+        ProductsComponent,
+        ProductComponent,
+    ],
+    imports: [
+        CommonModule,
+        SharedModule,
+        ProductosRoutingModule,
+    ]
 })
 export class ProductosModule { }
