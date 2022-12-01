@@ -1,3 +1,6 @@
+import { NCatas } from './notas_cata.model';
+import { Coctel } from './coctel.model';
+import { Maridaje } from './maridaje.model';
 // Interface de licores destilados
 
 export interface Producto {
@@ -8,4 +11,7 @@ export interface Producto {
   precioUnidad?: number;
   precioCaja?: number;
   stock?: number;
+  notasCata?: NCatas;
+  cocteles?: Coctel[];
+  marifaje?: Maridaje[];
 }

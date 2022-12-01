@@ -7,6 +7,7 @@ import { SharedModule } from '@sharedshared.module';
 import { HomeComponent } from './components/home/home.component';
 import { ProductsComponent } from './containers/products/products.component';
 import { ProductComponent } from './components/product/product.component';
+import { NotasCataComponent } from './components/notas-cata/notas-cata.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { ProductComponent } from './components/product/product.component';
         HomeComponent,
         ProductsComponent,
         ProductComponent,
+        NotasCataComponent,
     ],
     imports: [
         CommonModule,

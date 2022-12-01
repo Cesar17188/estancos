@@ -7,6 +7,6 @@
     <p>{{producto?.descripcion}}</p>
   </div>
   <div class="product_action">
-    <a>Ver {{producto?.producto}}</a>
+    <a [routerLink]="['/productos', producto?.id]">Ver {{producto?.producto}}</a>
   </div>
 </div>
