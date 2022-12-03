@@ -38,7 +38,6 @@ export class ProductsComponent implements OnInit {
         stock: 250
       }
     ];
-    console.log(this.productos);
   }
 
 }

@@ -1,1 +1,26 @@
-<p>notas-cata works!</p>
+<div class="content">
+  <div class="header">
+    <div class="header_menu">
+      <app-header></app-header>
+    </div>
+    <div class="header_product">
+      <img src="{{licor.img}}" alt="{{licor.producto}}">
+      <div class="header_product_content">
+        <h1>{{licor.descripcion}}</h1>
+        <div class="header_precio">
+          <h3>PRECIO</h3>
+          <p>{{licor.precioUnidad | currency}} </p>
+          <div class="btnCata">
+            <a href="">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="notas_cata">
+    <h1>NOTAS DE CATA</h1>
+    <div class="notas_cata_boxes">
+
+    </div>
+  </div>
+</div>

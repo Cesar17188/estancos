@@ -13,5 +13,5 @@ export interface Producto {
   stock?: number;
   notasCata?: NCatas;
   cocteles?: Coctel[];
-  marifaje?: Maridaje[];
+  maridaje?: Maridaje[];
 }
