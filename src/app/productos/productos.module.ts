@@ -9,6 +9,7 @@ import { ProductsComponent } from './containers/products/products.component';
 import { ProductComponent } from './components/product/product.component';
 import { NotasCataComponent } from './components/notas-cata/notas-cata.component';
 
+import { SwiperModule } from "swiper/angular";
 
 @NgModule({
     declarations: [
@@ -21,6 +22,7 @@ import { NotasCataComponent } from './components/notas-cata/notas-cata.component
         CommonModule,
         SharedModule,
         ProductosRoutingModule,
+        SwiperModule
     ]
 })
 export class ProductosModule { }

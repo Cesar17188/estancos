@@ -11,6 +11,7 @@ import { SharedModule } from '@shared/shared.module';
 import { CoreModule } from '@core/core.module';
 import { ProductosModule } from '@productos/productos.module';
 
+import { SwiperModule } from 'swiper/angular';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { ProductosModule } from '@productos/productos.module';
     SharedModule,
     CoreModule,
     ProductosModule,
+    SwiperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

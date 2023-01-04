@@ -7,16 +7,13 @@
       <img src="{{licor.img}}" alt="{{licor.producto}}">
       <div class="header_product_content">
         <h1>{{licor.descripcion}}</h1>
-        <div class="header_precio">
-          <h3>PRECIO</h3>
-          <p>{{licor.precioUnidad | currency}} </p>
           <div class="btnCata">
             <a href="">Comprar</a>
           </div>
-        </div>
       </div>
     </div>
   </div>
+  <!-- Notas de cata -->
   <div class="notas_cata">
     <h1>NOTAS DE CATA</h1>
     <div class="notas_cata_boxes">
@@ -48,5 +45,23 @@
         </div>
       </div>
     </div>
+  </div>
+  <!-- Maridaje -->
+  <div class="maridaje">
+    <div class="maridaje_title">
+      <h1>Maridaje</h1>
+    </div>
+    <div class="maridaje_container">
+      <div class="maridaje_card" *ngFor="let mar of maridaje">
+        <div class="maridaje_card_img">
+          <img src="{{mar.img}}" alt="">
+        </div>
+        <div class="maridaje_card_title">
+          <h2>{{mar.nombre_maridaje}}</h2>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </div>
