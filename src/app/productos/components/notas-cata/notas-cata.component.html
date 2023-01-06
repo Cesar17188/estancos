@@ -46,22 +46,14 @@
       </div>
     </div>
   </div>
-  <!-- Maridaje -->
-  <div class="maridaje">
-    <div class="maridaje_title">
-      <h1>Maridaje</h1>
-    </div>
-    <div class="maridaje_container">
-      <div class="maridaje_card" *ngFor="let mar of maridaje">
-        <div class="maridaje_card_img">
-          <img src="{{mar.img}}" alt="">
-        </div>
-        <div class="maridaje_card_title">
-          <h2>{{mar.nombre_maridaje}}</h2>
-        </div>
-      </div>
-    </div>
-
-
+  <!-- Maridajes -->
+  <div class="maridajes">
+    <app-maridajes></app-maridajes>
   </div>
+  <!-- Cocteles -->
+  <div class="coctels">
+    <app-coctels></app-coctels>
+  </div>
+  <!-- Footer -->
+  <app-footer></app-footer>
 </div>

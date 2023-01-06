@@ -1,0 +1,12 @@
+<div class="coctel_content">
+  <div class="coctel_title">
+    <h2>{{coctel?.nombre}}</h2>
+  </div>
+  <div class="coctel_contain">
+    <img src="{{coctel?.img}}" alt="{{coctel?.nombre}}">
+    <p>{{coctel?.descripcion}}</p>
+  </div>
+  <div class="coctel_action">
+    <a [routerLink]="['/coctels', coctel?.id]">Ver {{coctel?.nombre}}</a>
+  </div>
+</div>

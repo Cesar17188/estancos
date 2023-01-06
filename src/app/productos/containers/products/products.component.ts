@@ -11,7 +11,6 @@ export class ProductsComponent implements OnInit {
 
   productos: Producto[] = [];
 
-  constructor() { }
 
   ngOnInit(): void {
     this.fetchProducts();
@@ -21,7 +20,7 @@ export class ProductsComponent implements OnInit {
     this.productos = [
       {
         id: '1',
-        producto: 'Ron',
+        producto: 'Ron Estancos',
         img: 'https://drive.google.com/uc?export=view&id=1fLsnoxo4lYwhJeFsJhPK1ljiq7hGM6L2',
         descripcion: 'Ron Añejo Agricola Estancos',
         precioUnidad: 15,
@@ -30,7 +29,7 @@ export class ProductsComponent implements OnInit {
       },
       {
         id: '2',
-        producto: 'Whiskey',
+        producto: 'Whiskey Estancos',
         img: 'https://drive.google.com/uc?export=view&id=1O65UcSQuFLv7v0paSIOBJzLtkg6VZDBe',
         descripcion: 'Whiskey Estancos',
         precioUnidad: 20,

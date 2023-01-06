@@ -10,6 +10,10 @@ import { ProductComponent } from './components/product/product.component';
 import { NotasCataComponent } from './components/notas-cata/notas-cata.component';
 
 import { SwiperModule } from "swiper/angular";
+import { CoctelsComponent } from './containers/coctels/coctels.component';
+import { CoctelComponent } from './components/coctel/coctel.component';
+import { MaridajesComponent } from './containers/maridajes/maridajes.component';
+import { MaridajeComponent } from './components/maridaje/maridaje.component';
 
 @NgModule({
     declarations: [
@@ -17,6 +21,10 @@ import { SwiperModule } from "swiper/angular";
         ProductsComponent,
         ProductComponent,
         NotasCataComponent,
+        CoctelsComponent,
+        CoctelComponent,
+        MaridajesComponent,
+        MaridajeComponent,
     ],
     imports: [
         CommonModule,
