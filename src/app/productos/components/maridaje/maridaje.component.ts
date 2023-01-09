@@ -8,11 +8,12 @@ import { Maridaje } from '@core/models/maridaje.model';
 })
 export class MaridajeComponent implements OnInit {
 
-  @Input() maridaje: Maridaje | undefined;
+  @Input() maridajes: Maridaje[] | undefined;
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.maridajes);
   }
 
 }

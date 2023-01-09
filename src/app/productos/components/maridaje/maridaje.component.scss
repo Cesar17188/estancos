@@ -7,27 +7,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  transform: translateY(40%);
 }
 
 .maridaje::before {
   background: var(--background-color);
-}
-
-.maridaje_title {
-  width: 223px;
-  height: 38px;
-  transform: translateY(50%);
-  background: black;
-  border: 1px solid var(--main-color);
-  box-shadow: 3px 3px 1px var(--main-color);
-  h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 42px;
-    text-align: center;
-    color: var(--main-color)
-  }
 }
 
 .maridaje_container {
