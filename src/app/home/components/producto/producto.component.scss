@@ -5,6 +5,34 @@
   justify-content: center;
 }
 
+.header_box {
+  width: 50%;
+  height: 6vh;
+/* linesquare */
+border: 1px solid var(--main-color);
+box-shadow: 2px 1px 1px 1px var(--main-color);
+}
+
+.header_box-products {
+  position: absolute;
+  left: 26px;
+  top: -35%;
+}
+
+.header_box-title {
+  box-sizing: border-box;
+  position: absolute;
+  width: 147px;
+  height: 42px;
+  left: 37px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  color: var(--main-color);
+}
+
+
 .product_image {
   box-sizing: border-box;
   position: absolute;

@@ -24,7 +24,7 @@ export class CoctelesComponent implements OnInit {
         id: '1',
         nombre: 'Cuba Libre',
         descripcion: 'Cuba libre fabricado con Ron Estancos',
-        img: 'https://drive.google.com/uc?export=view&id=1qBpXn96AyFKJ89CxjB4SGlsBU_HeMXHi',
+        img: 'https://firebasestorage.googleapis.com/v0/b/estancosdistillingcompany.appspot.com/o/cocteles%2Fcoctel2.png?alt=media&token=3219591a-d2a6-4f2a-84fd-5a75202e2a43',
         licores: [
           { id: '1',
             producto: 'Ron Estancos'
@@ -37,7 +37,7 @@ export class CoctelesComponent implements OnInit {
         id: '2',
         nombre: 'Whiskey Sour',
         descripcion: 'Whiskey Sour fabricado con Whiskey Estancos',
-        img: 'https://drive.google.com/uc?export=view&id=1CHaMeZm7QkSguoyCgFUTsfYkNmCqqNvc',
+        img: 'https://firebasestorage.googleapis.com/v0/b/estancosdistillingcompany.appspot.com/o/cocteles%2Fcoctel1.png?alt=media&token=4e0b655c-dacc-4b6a-bc16-ee95758b2790',
         licores: [
           { id: '2',
             producto: 'Whiskey Estancos'

@@ -63,7 +63,7 @@
 
 .header_box {
   width: 50%;
-  height: 8vh;
+  height: 6vh;
 /* linesquare */
 border: 1px solid var(--main-color);
 box-shadow: 2px 1px 1px 1px var(--main-color);
@@ -72,7 +72,7 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
 .header_box-products {
   position: absolute;
   left: 26px;
-  top: 78%;
+  top: 70%;
 }
 
 .header_box-title {
@@ -102,20 +102,9 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
 .header_box-cocteles {
   position: absolute;
   left: 26px;
-  top: 138%;
+  top: 130%;
 }
 
-.header_box-destileria {
-  position: absolute;
-  left: 26px;
-  top: 333%;
-}
-
-.header_box-contenido {
-  position: absolute;
-  left: 26px;
-  top: 468%;
-}
 
 @media (min-width: 426px) {
   .landing_header {
