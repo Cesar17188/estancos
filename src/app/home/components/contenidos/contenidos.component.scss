@@ -73,22 +73,21 @@ a {
 .title_1{
     position: absolute;
     top: 32%;
-    left: 22%;
+    left: 40%;
+    a {
+      text-decoration: none;
+    }
 }
 
 .title_2{
   position: absolute;
   top: 40%;
-  left: 30%;
+  left: 40%;
+  a {
+    text-decoration: none;
+  }
 }
 
-.title_3{
-  position: absolute;
-  width: 75%;
-  text-align: center;
-  top: 231%;
-  left: 12%;
-}
 
 @media (min-width: 426px) {
   .content_contenidos {
@@ -111,8 +110,22 @@ a {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    .header_box {
+      width: 71%;
+    }
+    .header_box-contenido{
+      left: 15%;
+      top: -35%;
+    }
+    .header_box-title{
+      font-size: 3.5em;
+    }
   }
   .content_contenidos {
     width: 48%;
+  }
+  .header_box .header_box-contenido {
+    width: 95%;
+    padding-top: 10px;
   }
 }

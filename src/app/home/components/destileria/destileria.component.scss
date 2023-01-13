@@ -198,35 +198,31 @@
     top: 45%;
     left: 36%;
   }
-  .title_2{
-    top: 160%;
-    left: 40%;
-  }
-  .title_3{
-    top: 278%;
-    left: 11%;
-  }
 }
 
 @media (min-width: 1024px) {
   .content {
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    .header_box {
+      width: 71%;
+    }
+    .header_box-destileria{
+      left: 15%;
+      top: -35%;
+    }
+    .header_box-title{
+      font-size: 3.5em;
+    }
   }
+
+
   .content_destileria {
     width: 48%;
   }
   .title_1{
     left: 16%;
-  }
-  .title_2{
-    top: 45%;
-    left: 67%;
-  }
-  .title_3{
-    top: 165%;
-    left: 13%;
   }
 }

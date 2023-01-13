@@ -4,10 +4,10 @@
   <div class="menu">
     <ul>
       <li><a routerLink="/productos" routerLinkActive="active">Productos</a></li>
-      <li><a href="">Cocteles</a></li>
-      <li><a href="">Estancos</a></li>
-      <li><a href="">Destilería</a></li>
-      <li><a href="">Contenidos</a></li>
+      <li><a [routerLink]="['/cocteles']" routerLinkActive="active">Cocteles</a></li>
+      <li><a [routerLink]="['/estancos']" routerLinkActive="active">Estancos</a></li>
+      <li><a [routerLink]="['/destileria']" routerLinkActive="active">Destilería</a></li>
+      <li><a [routerLink]="['/contenidos']" routerLinkActive="active">Contenidos</a></li>
     </ul>
   </div>
 </div>

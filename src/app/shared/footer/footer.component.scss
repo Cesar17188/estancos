@@ -159,10 +159,6 @@
       width: 100%;
       img {
         width: 82%;
-        transform: translate(66px, -10px);
-      }
-      p {
-        transform: translate(43%, 0px);
       }
     }
     .social_media {
@@ -171,7 +167,7 @@
         height: 100px;
       }
       ul li:hover a {
-        font-size: 4em;
+        font-size: 6em;
       }
     }
 }
@@ -179,8 +175,12 @@
 @media (min-width: 1024px) {
   .separador {
     p{
-      transform: translate(43%, 0);
+      transform: translate(0%, 20%);
       font-size: 2.5em;
     }
+  }
+
+  .social_media {
+    transform: translateY(10px);
   }
 }

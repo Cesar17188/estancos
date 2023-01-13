@@ -120,74 +120,98 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
         width: 78%;
       }
   }
+  .content_support {
+    height: 70vh;
+  }
   .header_box-products {
-    top: 98%;
+    top: 94%;
   }
   .header_box-cocteles {
-    top: 154%;
-  }
-  .header_box-estancos {
-    top: 210%;
-  }
-  .header_box-destileria {
-    top: 336%;
-  }
-  .header_box-contenido {
-    top: 465%;
-  }
-  .content_support {
-    height: 55vh;
+    top: 163%;
   }
   .content_support_large {
     height: 125vh;
   }
   .content_support_medium {
-    height: 90vh;
+    height: 120vh;
   }
 }
 
 @media (min-width: 1024px) {
   .landing_header {
-    height: 67vh;
+    height: 80vh;
     #piramide {
-      width: 45%;
-      margin-top: 17%;
+      width: 29%;
+      margin-top: 11%;
     }
     #home_logo {
-      left: 11%;
+      left: 15%;
     }
     #piramide2 {
       display: flex;
-      width: 45%;
+      width: 29%;
       transform: rotateY(180deg);
-      margin-left: 56%;
-      margin-top: 17%;
+      margin-left: 71.5%;
+      margin-top: 11%;
     }
+  }
+
+ .product_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .header_box {
-    display: flex;
-    align-items: center;
+    text-align: center;
     .header_box-title {
-      font-size: 35px;
+      font-size: 40px;
+      left: 0;
     }
   }
+  .section_content {
+    transform: translate(15%, 35%);
+  }
   .header_box-products {
-    top: 87%;
+    top: 85%;
+    left: 25%;
+    h1 {
+      width: 100%;
+    }
   }
   .header_box-cocteles {
-    top: 154%;
+    top: 168%;
+    left: 25%;
+    h1 {
+      width: 100%;
+    }
   }
-  .header_box-estancos {
-    top: 224%;
+
+  .estancos_header {
+    padding-top: 10px;
+    .section_content {
+      transform: translate(0%, 40%);
+    }
   }
-  .header_box-destileria {
-    top: 314%;
+
+  .destileria_header {
+    padding-top: 10px;
+    .section_content {
+      transform: translate(0%, 40%);
+    }
   }
-  .header_box-contenido {
-    top: 406%;
+
+  .contenido_header {
+    padding-top: 10px;
+    width: 75%;
   }
+
+  .footer_content {
+    padding-top: 10px;
+  }
+
   .content_support {
-    height: 67vh;
+    height: 80vh;
   }
   .content_support_large {
     height: 90vh;
@@ -196,6 +220,6 @@ box-shadow: 2px 1px 1px 1px var(--main-color);
     height: 55vh;
   }
   .footer_content {
-    height: 70vh;
+    height: 90vh;
   }
 }

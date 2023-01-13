@@ -28,14 +28,16 @@
 <!-- seccion cocteles -->
 <div class="content_support">
   <div class="header coctel_header">
-    <div data-aos="fade-up" class="header_box header_box-cocteles">
-      <h1 class="header_box-title">COCTELES</h1>
-    </div>
-    <div class="section_content">
-      <app-cocteles class="section" data-aos="fade-up"></app-cocteles>
-    </div>
+      <a data-aos="fade-up" class="header_box header_box-cocteles"
+      [routerLink]="['/cocteles']">
+        <h1 class="header_box-title">COCTELES</h1>
+      </a>
+  </div>
+  <div class="section_content">
+    <app-cocteles class="section" data-aos="fade-up"></app-cocteles>
   </div>
 </div>
+
 
 
 <!-- seccion estancos -->
