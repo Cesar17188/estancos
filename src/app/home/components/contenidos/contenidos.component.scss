@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: translateY(38%);
 }
 
 .header_box {
@@ -89,7 +90,7 @@ a {
 }
 
 
-@media (min-width: 426px) {
+@media (min-width: 768px) {
   .content_contenidos {
     width: 85%;
     height: 315px;
@@ -110,6 +111,7 @@ a {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    transform: none;
     .header_box {
       width: 71%;
     }

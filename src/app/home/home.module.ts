@@ -13,6 +13,8 @@ import { ContenidosComponent } from './components/contenidos/contenidos.componen
 import { SharedModule } from '@shared/shared.module';
 import { ProductosComponent } from './containers/productos/productos.component';
 import { CoctelesComponent } from './containers/cocteles/cocteles.component';
+import { ProductsComponent } from './components/products/products.component';
+import { CoctelsComponent } from './components/coctels/coctels.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CoctelesComponent } from './containers/cocteles/cocteles.component';
     DestileriaComponent,
     ContenidosComponent,
     ProductosComponent,
-    CoctelesComponent
+    CoctelesComponent,
+    ProductsComponent,
+    CoctelsComponent
   ],
   imports: [
     CommonModule,

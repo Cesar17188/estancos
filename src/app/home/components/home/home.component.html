@@ -15,12 +15,7 @@
 <!-- seccion producto -->
 <div class="content_support">
   <div class="header product_header">
-    <div data-aos="fade-up" class="header_box header_box-products">
-      <a [routerLink]="['/productos']"><h1 class="header_box-title">PRODUCTOS</h1></a>
-    </div>
-    <div class="section_content">
-      <app-productos class="section" data-aos="fade-up"></app-productos>
-    </div>
+    <app-products></app-products>
   </div>
 </div>
 
@@ -28,13 +23,7 @@
 <!-- seccion cocteles -->
 <div class="content_support">
   <div class="header coctel_header">
-      <a data-aos="fade-up" class="header_box header_box-cocteles"
-      [routerLink]="['/cocteles']">
-        <h1 class="header_box-title">COCTELES</h1>
-      </a>
-  </div>
-  <div class="section_content">
-    <app-cocteles class="section" data-aos="fade-up"></app-cocteles>
+    <app-coctels></app-coctels>
   </div>
 </div>
 
@@ -63,7 +52,7 @@
 <!-- seccion contenidos -->
 <div class="content_support_medium">
   <div class="header contenido_header">
-    <div class="section_content">
+    <div class="section_content_contenidos">
       <app-contenidos class="section" data-aos="fade-up"></app-contenidos>
     </div>
   </div>

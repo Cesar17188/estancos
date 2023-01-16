@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: var(--background-color);
+  background: var(--background-color-black);
 }
 .header_product {
   img {
@@ -83,7 +83,7 @@
   justify-content: space-around;
   align-items: center;
   min-height: 100vh;
-  background: var(--background-color);
+  background: var(--background-color-silver);
   color: var(--main-color);
   padding-top: 100px;
   gap: 21px;
