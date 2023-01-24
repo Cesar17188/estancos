@@ -29,6 +29,7 @@
       "@env/*": ["src/environments/*"],
       "@core/*": ["src/app/core/*"],
       "@productos/*": ["src/app/productos/*"],
+      "@introducing/*": ["src/app/introducing/*"],
     }
   },
   "angularCompilerOptions": {

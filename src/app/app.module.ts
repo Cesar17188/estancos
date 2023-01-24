@@ -10,6 +10,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { SharedModule } from '@shared/shared.module';
 import { CoreModule } from '@core/core.module';
 import { ProductosModule } from '@productos/productos.module';
+import { IntroducingModule } from '@introducing/introducing.module';
 
 import { SwiperModule } from 'swiper/angular';
 @NgModule({
@@ -24,6 +25,7 @@ import { SwiperModule } from 'swiper/angular';
     CoreModule,
     ProductosModule,
     SwiperModule,
+    IntroducingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

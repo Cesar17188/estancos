@@ -1,4 +1,7 @@
+import { formatDate } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+
+import { Form, FormControl ,FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-index',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndexComponent implements OnInit {
 
-  constructor() { }
+
+  actualDate: Date = new Date();
+  dateDay = new FormControl('');
+  dateMonth = new FormControl('');
+  dateYear = new FormControl('');
+
+  constructor(
+    private formBuilder: FormBuilder,
+  ) {
+  }
 
   ngOnInit(): void {
   }
+
 
 }
