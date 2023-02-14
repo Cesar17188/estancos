@@ -237,10 +237,14 @@
   box-shadow: var(--main-color) 0 3px 7px inset;
   transform: translate(16%, 24%);
 }
-.btnIn a {
+.btnIn button {
   text-decoration: none;
+  background: transparent;
+  border: transparent;
   color: var(--main-color);
   font-size: 1.2em;
+  width: 100%;
+  cursor: pointer;
 }
 
 .slogan {
