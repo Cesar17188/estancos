@@ -1,26 +1,38 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AgeService {
 
-  public age$: Observable<number> | undefined;
+  private age: number = 0;
+  public actualAge = new BehaviorSubject<number>(1);
+
+  actualAge$ = this.actualAge.asObservable();
 
   constructor() {
    }
 
+   addAge(age: number) {
+    this.age = age;
+    this.actualAge.next(this.age);
+   }
 
-  public getAge(age: string) {
+
+  public calculateAge(age: string) {
     let actualDate = new Date(age);
     let todayDate = new Date();
-    return this.calculateYear(todayDate, actualDate);
+    this.addAge(this.calculateYear(todayDate, actualDate));
   }
 
   calculateYear(date1:Date, date2:Date) {
     let date = date1.getFullYear()-date2.getFullYear();
     return date;
+  }
+
+  getAge() {
+    return this.actualAge.getValue();
   }
 }
 

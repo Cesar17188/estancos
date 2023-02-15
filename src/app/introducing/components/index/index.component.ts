@@ -31,8 +31,9 @@ export class IndexComponent implements OnInit {
 
   dmytoDate() {
     let birthDate = this.dateYear.value + '-' + this.dateMonth.value + '-' + this.dateDay.value;
-    let date = this.ageService.getAge(birthDate);
-    if (date >= 18) {
+    this.ageService.calculateAge(birthDate);
+    let actualAge = this.ageService.getAge();
+    if (actualAge >= 18) {
       this.router.navigate(['/home']);
     }else {
       alert('No es mayor de edad');
