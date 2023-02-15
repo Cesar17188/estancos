@@ -3,6 +3,7 @@
   height: 300px;
   display: flex;
   gap: 3px;
+  justify-content: space-around;
 }
 @media (min-width: 426px) {
   .product-grid {
